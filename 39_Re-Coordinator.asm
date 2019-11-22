@@ -1,0 +1,45 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+-- The coordinates are (row, column) = (n div 4, n mod 4) --
+
+-- Size 14/14 --
+-- Speed 76/76 --
+
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+a:
+    COPYFROM 14
+    COPYTO   12
+    INBOX   
+b:
+    SUB      15
+    JUMPN    c
+    COPYTO   13
+    BUMPUP   12
+    COPYFROM 13
+    JUMP     b
+c:
+    ADD      15
+    OUTBOX  
+    COPYFROM 12
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 12
+eJzjYWBgkKzxLpOsed1zvcZ6RnBd5qJVjTvXOrfYb9rekbh5UteaJZO65s8GKmP4U5XqzDAKRsEoGFYA
+AAKXFO0;
+
+DEFINE LABEL 13
+eJwTYGBgmFt1bmlDZdu552VqT9eWlH2YUTD9Y3NOyPuj2YJvj2bH3HPM5b3smJt6Ni7P/PCt/P69l4r6
+9wK1MdyvbMpnGAWjYBQMaQAA8A0f0w;
+
+DEFINE LABEL 14
+eJwTZ2Bg2N4hm7O9433irPaD4W8aTrpplt2z+597z+5V5mv3q6lr4stS7zVvSJ8/uzvz3FLHXPtNMvlL
+thYXPd/eUfZ8e3LFkq0VNUYr1Zqd2/e32ufKtUkGObfweGY0rXBlGAWjYBQMegAAn4AtLg;
+
+DEFINE LABEL 15
+eJwTYmBgKEu9lbkia3p6XF5X3NoSHs/o6hCFipo6gV3VVnxu5TH8fiXu4o9yJIOOZv/JOprtXeaYO3lS
+df6tdVsLfXZrlokekqwRPcQwCkbBKBiSAABddR2Q;
+
+

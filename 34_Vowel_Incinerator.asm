@@ -1,0 +1,35 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+-- Size 13/13 --
+-- Speed 323/323 --
+
+a:
+b:
+    COPYFROM 5
+    COPYTO   6
+    INBOX   
+    COPYTO   7
+c:
+    COPYFROM [6]
+    JUMPZ    d
+    SUB      7
+    JUMPZ    b
+    BUMPUP   6
+    JUMP     c
+d:
+    COPYFROM 7
+    OUTBOX  
+    JUMP     a
+
+
+DEFINE LABEL 5
+eJwTY2BgOFSRoLm10F7jf663IX/GSbey1JiQu0nT0xMTefvkk7oWX01dsvVsxqX9adnmh98Xmx/mKf18
+wK1ca1dDpdHKXdWTJwnWr4kXrA/w/lLb5tJQeclUs4xDn2EUjIJRMCQAANG9JwI;
+
+DEFINE LABEL 6
+eJzjYmBgsKvaUGlX9X5ZQ+WGfXOrPh8QrBc91NvAsbO3wX4TUJrhfmWqM8MoGAWjYFgCAHSzEJ0;
+
+DEFINE LABEL 7
+eJzjZWBgECliOPW8bO9xxcqII19qtXadr0/c/KbBfhNQimFC8eO5p0oFV/ypajs3tXbrDcH6azcZRsEo
+GAXDBgAATk8ZLA;
+

@@ -1,0 +1,43 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+-- Size 15/17 --
+-- Speed 190/167 --
+
+    COMMENT  0
+a:
+b:
+    COPYFROM 14
+    COPYTO   13
+    INBOX   
+    COPYTO   12
+c:
+    BUMPDN   13
+    JUMPN    d
+    COPYFROM 12
+    SUB      [13]
+    JUMPZ    b
+    JUMP     c
+d:
+    COPYFROM 12
+    COPYTO   [14]
+    OUTBOX  
+    BUMPUP   14
+    JUMP     a
+
+
+DEFINE COMMENT 0
+eJzTZGBgSA3h0J/kf1Rnk/NzXUW7PuO1lntt31s4O02wsA7OtlKLPu4umyPnrVUa4evcHuF7snuWz5bJ
+jF4xM8+7zJ/93uLaFKARDEyJktNdElI7fiVv8QPx15acdLte8z1gam1daHHR3ibDYobWihqG1oTWvU0g
++fkT2zpze3KNsmZWWdfNrbLOW5xrBBLfM+lswtnFTfkgdtMEvX7PpQfnMIyCUTAKaAYAni8/EA;
+
+DEFINE LABEL 12
+eJzjZmBgWJDbv7e4KHHzn6rCiZI1AROAQgyOuRH1e/Mi6ouLFNsOVRycM7XWaCUDEnAr33s8uULyjmJl
+3f3eBrWnnE1qTxlbY+4xjIJRMAqGFAAANbMdWA;
+
+DEFINE LABEL 13
+eJzjYGBgWJE1u9Ex9+CcBbkhq74X8F72Kwm4ChRmOJsxP4xhFIyCUTCsAQD9lAyl;
+
+DEFINE LABEL 14
+eJwTZWBguF95tHBq7dHC1mbZnNwelqjlfZJBqf0B3qn9s21e9ppZGnddMk1o3WDypHm2jXejdXBvw/tE
+wXrRQwX1hdf0GqzvcjY9fpTQ+vhRaWfd/Y9d124yjIJRMAqGDAAA2BgoFw;
+

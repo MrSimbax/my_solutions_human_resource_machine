@@ -1,0 +1,19 @@
+-- HUMAN RESOURCE MACHINE PROGRAM --
+
+-- Size 7/7 --
+-- Speed 203/203 --
+
+a:
+    INBOX   
+    COPYTO   24
+b:
+    COPYFROM [24]
+    JUMPZ    a
+    OUTBOX  
+    BUMPUP   24
+    JUMP     b
+
+
+DEFINE LABEL 24
+eJzjYmBgiK7WKt1VrdgWXPd4bm9D12LOpjVLWpvXLJFrU1sAlGaYW+UewzAKRsEoGJYAAAjQDz4;
+
